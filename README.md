@@ -59,7 +59,7 @@ flowchart LR
 ```
 
 Коротко: Confluence индексируется в векторное хранилище, ассистент отвечает через RAG и tools, встречи проходят очистку аудио и превращаются в протокол.  
-Подробнее → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-assistant-rag.md)
+Подробнее → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md)
 
 ---
 
