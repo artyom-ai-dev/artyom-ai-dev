@@ -1,6 +1,6 @@
 <div align="center">
 
-# Привет, я Артём 👋
+# Artem Tyukin
 ### Fullstack / Python Engineer · AI in production
 
 Строю сервисы, которые реально работают у людей:  
