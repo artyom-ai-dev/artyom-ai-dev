@@ -1,5 +1,16 @@
+<!--
+Design system (red/black cyberpunk):
+  palette: #000000 · #141414 · #c41212 · #ff2a2a
+  formats:
+    banner  1280×400  hero
+    about   960×720   4:3 panel
+    cards   640×640   1:1 trio
+    strip   1280×120  separator
+    footer  1280×220  closing
+-->
+
 <div align="center">
-  <img src="assets/banner.png" alt="Artem Tyukin — Fullstack / Python / AI" width="100%" />
+  <img src="assets/banner.png" width="100%" alt="Hero banner" />
 </div>
 
 <br />
@@ -9,85 +20,92 @@
 # Artem Tyukin
 ### Fullstack / Python Engineer · AI in production
 
-Строю сервисы, которые реально работают у людей:  
-**AI-платформы · RAG · агенты · REST/webhooks · корпоративные боты**
+Строю сервисы, которые реально работают у людей  
+`AI-платформы` · `RAG` · `агенты` · `REST/webhooks` · `корпоративные боты`
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/artyom-ai-dev/portfolio)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://github.com/artyom-ai-dev/portfolio)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/artyom-ai-dev/portfolio)
-[![Portfolio](https://img.shields.io/badge/Case_studies-portfolio-111827?style=for-the-badge)](https://github.com/artyom-ai-dev/portfolio)
+[![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
+[![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
+[![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ff2a2a?style=for-the-badge&logoColor=black)](https://github.com/artyom-ai-dev/portfolio)
 
 <p>
   <a href="mailto:tyukin69@bk.ru">Email</a> ·
-  <a href="https://github.com/artyom-ai-dev/portfolio">Portfolio</a> ·
+  <a href="https://github.com/artyom-ai-dev/portfolio">Case studies</a> ·
   Екатеринбург · гибрид / удалёнка · <b>Open to work</b>
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
 </div>
+
+<img src="assets/strip.png" width="100%" alt="" />
 
 ## Обо мне
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
 Инженер-программист / инженер-разработчик в **УЦТ Уральского турбинного завода**.
 
-Делаю не демо в ноутбуке, а **production-контур**:
-API → интеграции → Docker → пользователи.  
+Делаю не демо в ноутбуке, а **production-контур**:  
+API → интеграции → Docker → пользователи.
+
 Сильная сторона — стык **разработки, AI и корпоративных систем**.
 
-Ищу роли: **Fullstack / Python-разработчик**, **инженер**, **прикладной дата-сайентист**.  
+Ищу роли: **Fullstack / Python**, **инженер**, **прикладной DS**.  
 Не трек DevOps-only и не РП.
 
----
-
-## Сейчас в фокусе
-
-- Мультиагентские AI-сервисы и RAG в корпоративном контуре  
-- Production-интеграции через REST / webhooks (Jira, мессенджеры, LDAP/AD)  
-- Аудиопайплайны встреч: очистка → STT → протокол  
-
-Публичные кейсы: **[artyom-ai-dev/portfolio](https://github.com/artyom-ai-dev/portfolio)**
+</td>
+<td width="42%" valign="top">
+  <img src="assets/about.png" width="100%" alt="About visual" />
+</td>
+</tr>
+</table>
 
 ---
 
-<div align="center">
-  <img src="assets/section-ai.png" alt="AI platform" width="100%" />
-</div>
+## Направления
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/card-ai.png" width="100%" alt="AI" /><br/>
+      <b>AI platform</b><br/>
+      <sub>агенты · RAG · LLM · STT</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/card-integrations.png" width="100%" alt="Integrations" /><br/>
+      <b>Integrations</b><br/>
+      <sub>REST · webhooks · Jira · LDAP</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/card-data.png" width="100%" alt="Data" /><br/>
+      <b>Data / automation</b><br/>
+      <sub>pandas · Excel · сверки</sub>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## Главный кейс
 
 **Корпоративный AI-контур:** база знаний + агенты + встречи.
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#2a0000', 'primaryTextColor': '#ffd0d0', 'primaryBorderColor': '#ff2a2a', 'lineColor': '#ff2a2a', 'secondaryColor': '#140000', 'tertiaryColor': '#000000'}}}%%
 flowchart LR
   CF[Confluence] --> W[Sync Worker]
   W --> Q[(Qdrant)]
   Q --> AI[AI Assistant]
   MIC[Meeting audio] --> CA[Clean Audio]
   CA --> AI
-  AI --> U[Users / protocols / answers]
+  AI --> U[Users / protocols]
 ```
 
-Коротко: Confluence индексируется в векторное хранилище, ассистент отвечает через RAG и tools, встречи проходят очистку аудио и превращаются в протокол.  
-Подробнее → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md)
+Confluence → векторный поиск → агент с tools; встречи: очистка аудио → STT → протокол.  
+Подробнее → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · все кейсы → [portfolio](https://github.com/artyom-ai-dev/portfolio)
 
----
-
-## Чем занимаюсь
-
-```text
-🧠  AI-платформы     мультиагенты · RAG · LLM · STT · аудиопайплайны
-🔗  Интеграции       REST · webhooks · Jira · eXpress · LDAP/AD · Confluence
-⚙️  Сервисы          FastAPI / Flask · Docker · очереди · мониторинг здоровья
-📊  Данные           pandas · Excel-автоматизация · сверки · витрины
-🖥️  Fullstack        backend first · веб-панели и UI, когда нужны людям
-```
-
----
-
-<div align="center">
-  <img src="assets/section-integrations.png" alt="Integrations" width="100%" />
-</div>
+<img src="assets/strip.png" width="100%" alt="" />
 
 ## Проекты
 
@@ -108,51 +126,41 @@ flowchart LR
 | 08 | **usercreatealertbot** | Алерты по событиям учёток |
 | 09 | **YGO_WEB** | Flask + LDAP + Excel + email |
 
-> Рабочие репозитории **приватные**. Код покажу на собеседовании.  
-> Разборы без секретов — в **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
+> Рабочие репозитории **приватные**. Код — на собеседовании.  
+> Публичные разборы — в **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
 
 ---
 
 ## Стек
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,docker,postgres,mysql,git,linux,js,pytorch&theme=dark" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,docker,postgres,mysql,git,linux,js,pytorch&theme=dark" alt="stack" />
 </p>
 
 ```text
-Backend        Python · FastAPI · Flask · Docker · REST · SQLite/PostgreSQL/MySQL
-AI / ML        LLM · RAG · Agents · LangChain · Qdrant · Embeddings/TEI
-               PyTorch · STT · Audio · Computer Vision
-Integrations   Webhooks · Jira · ServiceDesk · eXpress/BotX · LDAP/AD · Confluence
-Data           pandas · openpyxl · Excel pipelines · data cleanup & matching
+Backend        Python · FastAPI · Flask · Docker · REST · SQL
+AI / ML        LLM · RAG · Agents · LangChain · Qdrant · PyTorch · STT
+Integrations   Webhooks · Jira · eXpress · LDAP/AD · Confluence
+Data           pandas · openpyxl · Excel pipelines
 ```
-
----
 
 ## Как я работаю
 
-- Беру задачу от «есть боль» до **сервиса в проде**
-- Люблю стыки систем: webhooks, неидеальные данные, несколько источников правды
-- Документирую API и пайплайны так, чтобы можно было сопровождать
-- AI подключаю там, где это даёт пользу процессу — не ради галочки
-
----
+- От «есть боль» до **сервиса в проде**
+- Стыки систем: webhooks, грязные данные, несколько источников правды
+- Документирую API и пайплайны под сопровождение
+- AI — только если даёт пользу процессу
 
 ## Образование и языки
 
-- **УрГУПС**, Информационные системы и технологии (**Искусственный интеллект**), 2026  
+- **УрГУПС**, ИСТ (**Искусственный интеллект**), 2026  
 - Русский — родной · Английский — **B2**
 
----
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## Контакты
+<img src="assets/footer.png" width="100%" alt="" />
 
 <div align="center">
 
-📧 **tyukin69@bk.ru**  
-📱 +7 (982) 690-26-23  
+📧 **tyukin69@bk.ru** · 📱 +7 (982) 690-26-23  
 🌐 [github.com/artyom-ai-dev](https://github.com/artyom-ai-dev) · [portfolio](https://github.com/artyom-ai-dev/portfolio)
 
 **Open to work** · fullstack / Python / applied AI · гибрид или удалённо
