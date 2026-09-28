@@ -2,14 +2,14 @@
 
 # Artem Tyukin
 
-**Fullstack / Python Engineer** · applied AI in production
+**Fullstack / Python Engineer** · applied AI & production integrations
 
-AI platforms · RAG · agents · microservices · integrations
+AI platforms · RAG · agents · REST/webhooks · corporate bots & services
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)](#)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](#)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](#)
-[![LLM](https://img.shields.io/badge/LLM-RAG-agents-111827?style=flat)](#)
 
 </div>
 
@@ -18,14 +18,14 @@ AI platforms · RAG · agents · microservices · integrations
 ### About
 
 Engineer-developer at **Ural Turbine Works (УЦТ)**.  
-I build end-to-end services: API, integrations, Docker deploy, and AI features that ship to real users — not notebook demos.
+I ship end-to-end services used in production: APIs, webhooks, messenger bots, internal web apps, and AI features — not notebook demos.
 
 Looking for roles: **Fullstack / Python developer**, **software engineer**, **applied data scientist**.  
 Not DevOps-only and not project-manager tracks.
 
 ---
 
-### What I build
+### AI platform
 
 | Project | Stack | What it does |
 |--------:|:------|:-------------|
@@ -33,6 +33,16 @@ Not DevOps-only and not project-manager tracks.
 | **Confluence Sync Worker** | FastAPI · TEI · Qdrant | Knowledge-base indexing for corporate RAG |
 | **Clean Audio Service** | FastAPI · PyTorch · DeepFilterNet3 · ffmpeg | Speech denoising microservice |
 | **Peregovornaya** | Raspberry Pi · FastAPI · PostgreSQL | Meeting recorder → AI transcription / protocol |
+
+### Integrations & automation
+
+| Project | Stack | What it does |
+|--------:|:------|:-------------|
+| **jira-to-servicedesk** | FastAPI · Jira REST · Express/BotX · webhooks | Bidirectional Jira ↔ messenger sync, chats, files, CSAT |
+| **bot_jira** | Flask · Jira/ServiceDesk · eXpress | SLA digests and project alerts to channels |
+| **pass_bot** | Flask · LDAP/LDAPS · eXpress · webhooks | Self-service AD password reset from messenger |
+| **usercreatealertbot** | Flask · webhooks · eXpress | User lifecycle / AD event alerts to chat |
+| **YGO_WEB** | Flask · LDAP · pandas/openpyxl · SMTP | Internal web app with Excel automation and email flows |
 
 > Repositories are **private** (company / product constraints).  
 > Code walkthrough available on request: `tyukin69@bk.ru`
@@ -42,20 +52,21 @@ Not DevOps-only and not project-manager tracks.
 ### Stack
 
 ```text
-Languages     Python · SQL · JavaScript · Java
-Backend       FastAPI · Docker · PostgreSQL · MySQL · REST
-AI / ML       LLM · RAG · Agents · LangChain · Qdrant · Embeddings
-              PyTorch · STT · Audio pipelines · Computer Vision
-Integrations  Confluence · LDAP · 1C:ERP · CAD/CAE contours
+Languages      Python · SQL · JavaScript · Java
+Backend        FastAPI · Flask · Docker · PostgreSQL · MySQL · SQLite · REST
+Integrations   Webhooks · Jira · ServiceDesk · eXpress/BotX · LDAP/AD · Confluence
+AI / ML        LLM · RAG · Agents · LangChain · Qdrant · Embeddings
+               PyTorch · STT · Audio pipelines · Computer Vision
+Data / Office  pandas · openpyxl · Excel automation
 ```
 
 ---
 
 ### Focus
 
-- Production AI services with clear APIs and ownership
-- RAG pipelines: source → chunking → embeddings → search → agent tools
-- Multi-agent systems with tool-calling and observability
+- Production services with clear APIs, webhooks, and ownership
+- Corporate integrations: Jira, messengers, LDAP/AD, knowledge bases
+- RAG / multi-agent AI systems brought to real users
 - Practical fullstack delivery: backend first, UI/panels when needed
 
 ---
