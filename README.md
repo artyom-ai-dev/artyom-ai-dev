@@ -20,8 +20,8 @@ Design system (red/black cyberpunk):
 # Artem Tyukin
 ### Fullstack / Python Engineer · AI in production
 
-Строю сервисы, которые реально работают у людей  
-`AI-платформы` · `RAG` · `агенты` · `REST/webhooks` · `корпоративные боты`
+I build services that people actually use:  
+`AI platforms` · `RAG` · `agents` · `REST/webhooks` · `corporate bots`
 
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
@@ -31,28 +31,28 @@ Design system (red/black cyberpunk):
 <p>
   <a href="mailto:tyukin69@bk.ru">Email</a> ·
   <a href="https://github.com/artyom-ai-dev/portfolio">Case studies</a> ·
-  Екатеринбург · гибрид / удалёнка · <b>Open to work</b>
+  Yekaterinburg · hybrid / remote · <b>Open to work</b>
 </p>
 
 </div>
 
 <img src="assets/strip.png" width="100%" alt="" />
 
-## Обо мне
+## About
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-Инженер-программист / инженер-разработчик в **УЦТ Уральского турбинного завода**.
+Software engineer / developer at **Ural Turbine Works (Digital Transformation unit)**.
 
-Делаю не демо в ноутбуке, а **production-контур**:  
-API → интеграции → Docker → пользователи.
+I ship **production systems**, not notebook demos:  
+API → integrations → Docker → users.
 
-Сильная сторона — стык **разработки, AI и корпоративных систем**.
+Strength: the intersection of **engineering, AI, and enterprise systems**.
 
-Ищу роли: **Fullstack / Python**, **инженер**, **прикладной DS**.  
-Не трек DevOps-only и не РП.
+Looking for roles: **Fullstack / Python**, **software engineer**, **applied data scientist**.  
+Not DevOps-only and not project-manager tracks.
 
 </td>
 <td width="42%" valign="top">
@@ -63,14 +63,14 @@ API → интеграции → Docker → пользователи.
 
 ---
 
-## Направления
+## Focus areas
 
 <table>
   <tr>
     <td align="center" width="33%">
       <img src="assets/card-ai.png" width="100%" alt="AI" /><br/>
       <b>AI platform</b><br/>
-      <sub>агенты · RAG · LLM · STT</sub>
+      <sub>agents · RAG · LLM · STT</sub>
     </td>
     <td align="center" width="33%">
       <img src="assets/card-integrations.png" width="100%" alt="Integrations" /><br/>
@@ -80,16 +80,16 @@ API → интеграции → Docker → пользователи.
     <td align="center" width="33%">
       <img src="assets/card-data.png" width="100%" alt="Data" /><br/>
       <b>Data / automation</b><br/>
-      <sub>pandas · Excel · сверки</sub>
+      <sub>pandas · Excel · matching</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## Главный кейс
+## Flagship case
 
-**Корпоративный AI-контур:** база знаний + агенты + встречи.
+**Enterprise AI contour:** knowledge base + agents + meetings.
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#2a0000', 'primaryTextColor': '#ffd0d0', 'primaryBorderColor': '#ff2a2a', 'lineColor': '#ff2a2a', 'secondaryColor': '#140000', 'tertiaryColor': '#000000'}}}%%
@@ -102,36 +102,36 @@ flowchart LR
   AI --> U[Users / protocols]
 ```
 
-Confluence → векторный поиск → агент с tools; встречи: очистка аудио → STT → протокол.  
-Подробнее → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · все кейсы → [portfolio](https://github.com/artyom-ai-dev/portfolio)
+Confluence → vector search → agent with tools; meetings: audio cleanup → STT → protocol.  
+Details → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · all cases → [portfolio](https://github.com/artyom-ai-dev/portfolio)
 
 <img src="assets/strip.png" width="100%" alt="" />
 
-## Проекты
+## Projects
 
-### AI-платформа
-| | Проект | Что внутри |
+### AI platform
+| | Project | What's inside |
 |:-:|--------|------------|
-| 01 | **AI Assistant** | Агенты, tool-calling, RAG, протоколы встреч, Ollama/GigaChat, Qdrant |
-| 02 | **Confluence Sync Worker** | Confluence → чанкинг → TEI/e5 → Qdrant |
-| 03 | **Clean Audio Service** | DeepFilterNet3 + ffmpeg → вход в STT |
-| 04 | **Peregovornaya** | Запись встреч на Pi → выгрузка → ИИ-протокол |
+| 01 | **AI Assistant** | Agents, tool-calling, RAG, meeting protocols, Ollama/GigaChat, Qdrant |
+| 02 | **Confluence Sync Worker** | Confluence → chunking → TEI/e5 → Qdrant |
+| 03 | **Clean Audio Service** | DeepFilterNet3 + ffmpeg → STT input |
+| 04 | **Peregovornaya** | Pi meeting recorder → upload → AI protocol |
 
-### Интеграции и автоматизация
-| | Проект | Что внутри |
+### Integrations & automation
+| | Project | What's inside |
 |:-:|--------|------------|
-| 05 | **jira-to-servicedesk** | Jira ↔ Express: чаты, файлы, CSAT, webhooks |
-| 06 | **bot_jira** | SLA-дайджесты Jira/ServiceDesk в каналы |
-| 07 | **pass_bot** | Смена пароля AD из мессенджера (LDAPS) |
-| 08 | **usercreatealertbot** | Алерты по событиям учёток |
+| 05 | **jira-to-servicedesk** | Jira ↔ Express: chats, files, CSAT, webhooks |
+| 06 | **bot_jira** | Jira/ServiceDesk SLA digests to channels |
+| 07 | **pass_bot** | AD password reset from messenger (LDAPS) |
+| 08 | **usercreatealertbot** | Alerts on account lifecycle events |
 | 09 | **YGO_WEB** | Flask + LDAP + Excel + email |
 
-> Рабочие репозитории **приватные**. Код — на собеседовании.  
-> Публичные разборы — в **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
+> Working repositories are **private**. Code walkthrough available in interview.  
+> Public write-ups are in **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
 
 ---
 
-## Стек
+## Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,flask,docker,postgres,mysql,git,linux,js,pytorch&theme=dark" alt="stack" />
@@ -144,11 +144,11 @@ Integrations   Webhooks · Jira · eXpress · LDAP/AD · Confluence
 Data           pandas · openpyxl · Excel pipelines
 ```
 
-## Как я работаю
+## How I work
 
-- От «есть боль» до **сервиса в проде**
-- Стыки систем: webhooks, грязные данные, несколько источников правды
-- Документирую API и пайплайны под сопровождение
-- AI — только если даёт пользу процессу
+- From “there is a pain” to a **service in production**
+- System boundaries: webhooks, messy data, multiple sources of truth
+- I document APIs and pipelines so they can be maintained
+- AI only when it creates real process value
 
 <img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/footer-anime.png?v=3" width="100%" alt="footer" />
