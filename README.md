@@ -10,7 +10,7 @@ Design system (red/black cyberpunk):
 -->
 
 <div align="center">
-  <img src="assets/hero-anime.png" width="100%" alt="Hero banner" />
+  <img src="assets/hero-skeleton.png" width="100%" alt="Hero banner" />
 </div>
 
 <br />
