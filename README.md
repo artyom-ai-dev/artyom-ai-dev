@@ -151,4 +151,4 @@ Data           pandas · openpyxl · Excel pipelines
 - Документирую API и пайплайны под сопровождение
 - AI — только если даёт пользу процессу
 
-<img src="assets/footer.png" width="100%" alt="" />
+<img src="assets/footer-anime.png" width="100%" alt="" />
