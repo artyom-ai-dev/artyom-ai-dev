@@ -1,4 +1,10 @@
 <div align="center">
+  <img src="assets/banner.png" alt="Artem Tyukin — Fullstack / Python / AI" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
 
 # Artem Tyukin
 ### Fullstack / Python Engineer · AI in production
@@ -17,9 +23,9 @@
   Екатеринбург · гибрид / удалёнка · <b>Open to work</b>
 </p>
 
-</div>
+<img src="assets/divider.svg" width="100%" alt="" />
 
----
+</div>
 
 ## Обо мне
 
@@ -43,6 +49,10 @@ API → интеграции → Docker → пользователи.
 Публичные кейсы: **[artyom-ai-dev/portfolio](https://github.com/artyom-ai-dev/portfolio)**
 
 ---
+
+<div align="center">
+  <img src="assets/section-ai.png" alt="AI platform" width="100%" />
+</div>
 
 ## Главный кейс
 
@@ -74,6 +84,10 @@ flowchart LR
 ```
 
 ---
+
+<div align="center">
+  <img src="assets/section-integrations.png" alt="Integrations" width="100%" />
+</div>
 
 ## Проекты
 
@@ -130,6 +144,8 @@ Data           pandas · openpyxl · Excel pipelines · data cleanup & matching
 - Русский — родной · Английский — **B2**
 
 ---
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## Контакты
 
