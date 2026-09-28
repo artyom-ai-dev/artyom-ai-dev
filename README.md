@@ -63,6 +63,6 @@ Integrations  Confluence · LDAP · 1C:ERP · CAD/CAE contours
 <div align="center">
 
 **Contact:** tyukin69@bk.ru · GitHub DM  
-**Profile:** [github.com/Artem228Dalnoboy](https://github.com/Artem228Dalnoboy)
+**Profile:** [github.com/artyom-ai-dev](https://github.com/artyom-ai-dev)
 
 </div>
