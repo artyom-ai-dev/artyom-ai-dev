@@ -151,18 +151,4 @@ Data           pandas · openpyxl · Excel pipelines
 - Документирую API и пайплайны под сопровождение
 - AI — только если даёт пользу процессу
 
-## Образование и языки
-
-- **УрГУПС**, ИСТ (**Искусственный интеллект**), 2026  
-- Русский — родной · Английский — **B2**
-
 <img src="assets/footer.png" width="100%" alt="" />
-
-<div align="center">
-
-📧 **tyukin69@bk.ru** · 📱 +7 (982) 690-26-23  
-🌐 [github.com/artyom-ai-dev](https://github.com/artyom-ai-dev) · [portfolio](https://github.com/artyom-ai-dev/portfolio)
-
-**Open to work** · fullstack / Python / applied AI · гибрид или удалённо
-
-</div>
