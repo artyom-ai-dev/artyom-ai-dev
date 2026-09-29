@@ -134,9 +134,9 @@ Confluence → векторный поиск → агент с tools; встре
 | | Проект | Что внутри | Кейс |
 |:-:|--------|------------|------|
 | 05 | **jira-to-servicedesk** | Jira ↔ Express: чаты, файлы, CSAT, webhooks | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
-| 06 | **bot_jira** | Дайджесты SLA Jira/ServiceDesk в каналы | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
-| 07 | **pass_bot** | Сброс пароля AD из мессенджера (LDAPS) | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
-| 08 | **usercreatealertbot** | Алерты по жизненному циклу учёток | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
+| 06 | **bot_jira** | Notification gateway: SLA-дайджесты → каналы, auth/TLS, gunicorn | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
+| 07 | **pass_bot** | Self-service сброс пароля AD: FSM, LDAPS, без plaintext в БД | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
+| 08 | **usercreatealertbot** | Alert-релей жизненного цикла учёток 1С/AD → чат | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
 | 09 | **YGO_WEB** | Flask + LDAP + Excel + email | [04](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/04-excel-web-automation.md) |
 
 > Рабочие репозитории **приватные**. Разбор кода — на собеседовании.  
@@ -151,10 +151,11 @@ Confluence → векторный поиск → агент с tools; встре
 </p>
 
 ```text
-Backend        Python · FastAPI · Flask · Docker · REST · SQL
+Backend        Python · FastAPI · Flask · gunicorn · Docker · REST · SQL
 AI / ML        LLM · RAG · Agents · LangChain · Qdrant · PyTorch · STT
-Интеграции     Webhooks · Jira · eXpress · LDAP/AD · Confluence
+Интеграции     Webhooks · Jira · eXpress/BotX · LDAP/AD · Confluence
 Данные         pandas · openpyxl · Excel-пайплайны
+Боты           FSM · notification gateway · alert relay · TLS/auth
 ```
 
 <img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
@@ -163,6 +164,7 @@ AI / ML        LLM · RAG · Agents · LangChain · Qdrant · PyTorch · STT
 
 - От «есть боль» до **сервиса в проде**
 - Границы систем: webhooks, грязные данные, несколько источников истины
+- Боты и интеграции — со слоями, auth на ingress и без утечек секретов/PII
 - Документирую API и пайплайны так, чтобы их можно было сопровождать
 - AI — только если даёт реальную пользу процессу
 
