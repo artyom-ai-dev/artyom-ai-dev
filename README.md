@@ -23,6 +23,8 @@ Design system (red/black cyberpunk):
 I build services that people actually use:  
 `AI platforms` · `RAG` · `agents` · `REST/webhooks` · `corporate bots`
 
+<small>Артём Тюкин · fullstack / Python · AI-сервисы в проде · Екатеринбург · open to work</small>
+
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
@@ -37,6 +39,18 @@ I build services that people actually use:
 </div>
 
 <img src="assets/strip.png" width="100%" alt="" />
+
+## Start here
+
+| Open first | Why |
+|------------|-----|
+| **[portfolio](https://github.com/artyom-ai-dev/portfolio)** | Public case studies (architecture, flows, outcomes — no private source) |
+| **[01 · AI platform](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md)** | Flagship: RAG + agents + meeting pipeline |
+| **[02 · Messenger ↔ tracker](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md)** | Production webhooks / two-way sync |
+
+Working repos stay **private** (enterprise data). Code walkthrough available in interview.
+
+---
 
 ## About
 
@@ -110,21 +124,21 @@ Details → [case 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases
 ## Projects
 
 ### AI platform
-| | Project | What's inside |
-|:-:|--------|------------|
-| 01 | **AI Assistant** | Agents, tool-calling, RAG, meeting protocols, Ollama/GigaChat, Qdrant |
-| 02 | **Confluence Sync Worker** | Confluence → chunking → TEI/e5 → Qdrant |
-| 03 | **Clean Audio Service** | DeepFilterNet3 + ffmpeg → STT input |
-| 04 | **Peregovornaya** | Pi meeting recorder → upload → AI protocol |
+| | Project | What's inside | Case |
+|:-:|--------|------------|------|
+| 01 | **AI Assistant** | Agents, tool-calling, RAG, meeting protocols, Ollama/GigaChat, Qdrant | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
+| 02 | **Confluence Sync Worker** | Confluence → chunking → TEI/e5 → Qdrant | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
+| 03 | **Clean Audio Service** | DeepFilterNet3 + ffmpeg → STT input | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
+| 04 | **Peregovornaya** | Pi meeting recorder → upload → AI protocol | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
 
 ### Integrations & automation
-| | Project | What's inside |
-|:-:|--------|------------|
-| 05 | **jira-to-servicedesk** | Jira ↔ Express: chats, files, CSAT, webhooks |
-| 06 | **bot_jira** | Jira/ServiceDesk SLA digests to channels |
-| 07 | **pass_bot** | AD password reset from messenger (LDAPS) |
-| 08 | **usercreatealertbot** | Alerts on account lifecycle events |
-| 09 | **YGO_WEB** | Flask + LDAP + Excel + email |
+| | Project | What's inside | Case |
+|:-:|--------|------------|------|
+| 05 | **jira-to-servicedesk** | Jira ↔ Express: chats, files, CSAT, webhooks | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
+| 06 | **bot_jira** | Jira/ServiceDesk SLA digests to channels | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
+| 07 | **pass_bot** | AD password reset from messenger (LDAPS) | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
+| 08 | **usercreatealertbot** | Alerts on account lifecycle events | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
+| 09 | **YGO_WEB** | Flask + LDAP + Excel + email | [04](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/04-excel-web-automation.md) |
 
 > Working repositories are **private**. Code walkthrough available in interview.  
 > Public write-ups are in **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
