@@ -37,7 +37,7 @@ Design system (red/black cyberpunk):
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
 
 ## Начни отсюда
 
@@ -49,7 +49,7 @@ Design system (red/black cyberpunk):
 
 Рабочие репозитории **приватные** (корпоративные данные). Разбор кода — на собеседовании.
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
 
 ## Обо мне
 
@@ -74,7 +74,7 @@ API → интеграции → Docker → пользователи.
 </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
 
 ## Фокус
 
@@ -98,7 +98,7 @@ API → интеграции → Docker → пользователи.
   </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
 
 ## Главный кейс
 
@@ -118,7 +118,7 @@ flowchart LR
 Confluence → векторный поиск → агент с tools; встречи: очистка аудио → STT → протокол.  
 Подробнее → [кейс 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · все кейсы → [portfolio](https://github.com/artyom-ai-dev/portfolio)
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
 
 ## Проекты
 
