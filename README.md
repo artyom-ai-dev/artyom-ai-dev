@@ -23,7 +23,7 @@ Design system (red/black cyberpunk):
 I build services that people actually use:  
 `AI platforms` · `RAG` · `agents` · `REST/webhooks` · `corporate bots`
 
-<small>Артём Тюкин · fullstack / Python · AI-сервисы в проде · Екатеринбург · open to work</small>
+<small>Артём Тюкин · fullstack / Python · AI-сервисы в проде · open to work</small>
 
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
@@ -33,7 +33,7 @@ I build services that people actually use:
 <p>
   <a href="mailto:tyukin69@bk.ru">Email</a> ·
   <a href="https://github.com/artyom-ai-dev/portfolio">Case studies</a> ·
-  Yekaterinburg · hybrid / remote · <b>Open to work</b>
+  hybrid / remote · <b>Open to work</b>
 </p>
 
 </div>
