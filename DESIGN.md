@@ -11,9 +11,9 @@
 | `hero-skeleton.png` | 1280×400 | Hero |
 | `about.png` | 960×720 | About side panel (4:3) |
 | `card-*.png` | 640×640 | Focus area cards (1:1) |
-| `strip.png` | 1280×40 | Section separator (RGBA, без фона) |
+| `strip.png` | 1280×48 | Section separator (RGBA glow, без сплошного фона) |
 | `footer-anime.png` | 1280×360 | Closing atmosphere |
-| `divider.svg` | 1280×24 | Thin accent line (SVG, без фона) |
+| `divider.svg` | 1280×28 | Red line + soft glow (SVG, без сплошного фона) |
 
 ## Layout rules
 1. One hero image only at the top

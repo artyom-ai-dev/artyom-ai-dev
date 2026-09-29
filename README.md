@@ -5,8 +5,8 @@ Design system (red/black cyberpunk):
     banner  1280×400  hero
     about   960×720   4:3 panel
     cards   640×640   1:1 trio
-    strip   1280×40   separator (transparent PNG)
-    divider 1280×24   thin SVG line (no background)
+    strip   1280×48   separator (RGBA glow, no solid bg)
+    divider 1280×28   SVG red line + soft glow (transparent)
     footer  1280×220  closing
 -->
 
@@ -37,7 +37,7 @@ Design system (red/black cyberpunk):
 
 </div>
 
-<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Начни отсюда
 
@@ -49,7 +49,7 @@ Design system (red/black cyberpunk):
 
 Рабочие репозитории **приватные** (корпоративные данные). Разбор кода — на собеседовании.
 
-<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Обо мне
 
@@ -57,7 +57,7 @@ Design system (red/black cyberpunk):
 <tr>
 <td width="58%" valign="top">
 
-Инженер-программист / инженер-разработчик в **Уральском турбинном заводе (УЦТ)**.
+Инженер-программист / инженер-разработчик.
 
 Делаю **продакшен-системы**, а не демо в ноутбуках:  
 API → интеграции → Docker → пользователи.
@@ -74,7 +74,7 @@ API → интеграции → Docker → пользователи.
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Фокус
 
@@ -98,7 +98,7 @@ API → интеграции → Docker → пользователи.
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Главный кейс
 
@@ -118,7 +118,7 @@ flowchart LR
 Confluence → векторный поиск → агент с tools; встречи: очистка аудио → STT → протокол.  
 Подробнее → [кейс 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · все кейсы → [portfolio](https://github.com/artyom-ai-dev/portfolio)
 
-<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=5" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Проекты
 
@@ -142,7 +142,7 @@ Confluence → векторный поиск → агент с tools; встре
 > Рабочие репозитории **приватные**. Разбор кода — на собеседовании.  
 > Публичные описания — в **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
 
----
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Стек
 
@@ -156,6 +156,8 @@ AI / ML        LLM · RAG · Agents · LangChain · Qdrant · PyTorch · STT
 Интеграции     Webhooks · Jira · eXpress · LDAP/AD · Confluence
 Данные         pandas · openpyxl · Excel-пайплайны
 ```
+
+<img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Как работаю
 
