@@ -22,7 +22,7 @@ Design system (red/black cyberpunk):
 ### Fullstack / Python-инженер · AI в проде
 
 Собираю сервисы, которыми реально пользуются:  
-`AI-платформы` · `RAG` · `агенты` · `OCR` · `REST/webhooks` · `корпоративные боты`
+`AI-платформы` · `RAG` · `агенты` · `OCR` · `frontend` · `Docker/CI` · `корпоративные боты`
 
 [![Сайт](https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-ff2a2a?style=for-the-badge&logoColor=black)](https://prod-ai-cases.apps.grok.bot)
 [![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=ff2a2a)](https://t.me/tryboth)
@@ -98,8 +98,8 @@ API → интеграции → Docker → пользователи.
     </td>
     <td align="center" width="33%">
       <img src="assets/card-data.png" width="100%" alt="Данные" /><br/>
-      <b>Данные / автоматизация</b><br/>
-      <sub>pandas · Excel · LLM-QA</sub>
+      <b>Frontend / DevOps</b><br/>
+      <sub>Vue · React · Next · Docker · CI/CD</sub>
     </td>
   </tr>
 </table>
@@ -151,6 +151,14 @@ Confluence → векторный поиск → агент с tools; встре
 | 11 | **usercreatealertbot** | Alert-релей жизненного цикла учёток 1С/AD → чат | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
 | 12 | **YGO_WEB** | Flask + LDAP + Excel + email | [04](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/04-excel-web-automation.md) |
 
+### Frontend и порталы
+| | Проект | Что внутри |
+|:-:|--------|------------|
+| 13 | **web-ai** | UI AI-ассистента: Vue 3 · Vite · Pinia · Naive UI |
+| 14 | **dwh-api-portal** | Next.js · TypeScript · Tailwind · LDAP RBAC · SQL-консоль DWH |
+| 15 | **web-dashboard** | React · Vite · dashboard UI + Docker Compose деплой |
+| 16 | **utz-ai-feedback-protocol** | Next.js · React · Tailwind — протокол обратной связи |
+
 > Рабочие репозитории **приватные**. Разбор кода — на собеседовании.  
 > Публичные описания — в **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
 
@@ -159,14 +167,16 @@ Confluence → векторный поиск → агент с tools; встре
 ## Стек
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,docker,postgres,mysql,git,linux,js,pytorch&theme=dark" alt="стек" />
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,vue,react,nextjs,ts,vite,tailwind,docker,postgres,mysql,git,linux,gitlab,pytorch&theme=dark" alt="стек" />
 </p>
 
 ```text
-Backend        Python · FastAPI · Flask · gunicorn · Docker · REST · SQL
+Backend        Python · FastAPI · Flask · gunicorn · REST · SQL
+Frontend       TypeScript · Vue 3 · React · Next.js · Vite · Tailwind · Pinia · Naive UI
+DevOps         Docker · Compose · GitLab CI/CD · Linux · multi-stage build · server deploy
 AI / ML        LLM · RAG · Agents · LangChain · Qdrant · llama.cpp · Tesseract · PyTorch · STT
 Интеграции     Webhooks · Jira · eXpress/BotX · LDAP/AD · Confluence
-Данные         pandas · openpyxl · Excel-пайплайны · OCR чертежей
+Данные         pandas · openpyxl · Excel-пайплайны · OCR чертежей · PostgreSQL DWH
 Боты           FSM · notification gateway · alert relay · TLS/auth
 ```
 
