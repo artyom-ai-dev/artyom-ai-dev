@@ -22,7 +22,7 @@ Design system (red/black cyberpunk):
 ### Fullstack / Python-инженер · AI в проде
 
 Собираю сервисы, которыми реально пользуются:  
-`AI-платформы` · `RAG` · `агенты` · `REST/webhooks` · `корпоративные боты`
+`AI-платформы` · `RAG` · `агенты` · `OCR` · `REST/webhooks` · `корпоративные боты`
 
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
@@ -45,7 +45,8 @@ Design system (red/black cyberpunk):
 |------------|-----|
 | **[portfolio](https://github.com/artyom-ai-dev/portfolio)** | Публичные кейсы: архитектура, потоки, результат — без приватного кода |
 | **[01 · AI-платформа](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md)** | Главный кейс: RAG + агенты + пайплайн встреч |
-| **[02 · Мессенджер ↔ трекер](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md)** | Прод: webhooks и двусторонняя синхронизация |
+| **[05 · OCR чертежей](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/05-drawing-ocr.md)** | Новое: PDF-скан → ТТ / паспорт / штамп в JSON |
+| **[06 · LLM + Excel](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/06-excel-llm-qa.md)** | Новое: проверка тысяч строк актов локальной моделью |
 
 Рабочие репозитории **приватные** (корпоративные данные). Разбор кода — на собеседовании.
 
@@ -83,7 +84,7 @@ API → интеграции → Docker → пользователи.
     <td align="center" width="33%">
       <img src="assets/card-ai.png" width="100%" alt="AI" /><br/>
       <b>AI-платформа</b><br/>
-      <sub>агенты · RAG · LLM · STT</sub>
+      <sub>агенты · RAG · LLM · STT · OCR</sub>
     </td>
     <td align="center" width="33%">
       <img src="assets/card-integrations.png" width="100%" alt="Интеграции" /><br/>
@@ -93,7 +94,7 @@ API → интеграции → Docker → пользователи.
     <td align="center" width="33%">
       <img src="assets/card-data.png" width="100%" alt="Данные" /><br/>
       <b>Данные / автоматизация</b><br/>
-      <sub>pandas · Excel · matching</sub>
+      <sub>pandas · Excel · LLM-QA</sub>
     </td>
   </tr>
 </table>
@@ -102,7 +103,7 @@ API → интеграции → Docker → пользователи.
 
 ## Главный кейс
 
-**Корпоративный AI-контур:** база знаний + агенты + встречи.
+**Корпоративный AI-контур:** база знаний + агенты + встречи + документы.
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#2a0000', 'primaryTextColor': '#ffd0d0', 'primaryBorderColor': '#ff2a2a', 'lineColor': '#ff2a2a', 'secondaryColor': '#140000', 'tertiaryColor': '#000000'}}}%%
@@ -112,32 +113,38 @@ flowchart LR
   Q --> AI[AI Assistant]
   MIC[Аудио встреч] --> CA[Clean Audio]
   CA --> AI
+  LIR[Пакеты ЛИР] --> AI
   AI --> U[Пользователи / протоколы]
+  PDF[Сканы чертежей] --> OCR[OCR service]
+  OCR --> ERP[ERP / PLM]
 ```
 
-Confluence → векторный поиск → агент с tools; встречи: очистка аудио → STT → протокол.  
-Подробнее → [кейс 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · все кейсы → [portfolio](https://github.com/artyom-ai-dev/portfolio)
+Confluence → векторный поиск → агент с tools; встречи: очистка аудио → STT → протокол; чертежи: OCR → JSON.  
+Подробнее → [кейс 01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) · [05](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/05-drawing-ocr.md) · все кейсы → [portfolio](https://github.com/artyom-ai-dev/portfolio)
 
 <img src="https://raw.githubusercontent.com/artyom-ai-dev/artyom-ai-dev/main/assets/divider.svg?v=6" width="100%" alt="" />
 
 ## Проекты
 
-### AI-платформа
+### AI-платформа и документы
 | | Проект | Что внутри | Кейс |
 |:-:|--------|------------|------|
 | 01 | **AI Assistant** | Агенты, tool-calling, RAG, протоколы встреч, Ollama/GigaChat, Qdrant | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
 | 02 | **Confluence Sync Worker** | Confluence → чанкинг → TEI/e5 → Qdrant | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
 | 03 | **Clean Audio Service** | DeepFilterNet3 + ffmpeg → вход для STT | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
 | 04 | **Peregovornaya** | Запись встреч на Pi → выгрузка → AI-протокол | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
+| 05 | **lir-package-service** | Распаковка zip/rar пакетов заявок → `agent_task` для агента | [01](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md) |
+| 06 | **drawing-ocr-service** | PDF-скан чертежа → ТТ, паспорт, штамп (JSON API) | [05](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/05-drawing-ocr.md) |
+| 07 | **ai-data-agent** | LLM-проверка текстов актов в Excel (тысячи строк, llama.cpp) | [06](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/06-excel-llm-qa.md) |
 
 ### Интеграции и автоматизация
 | | Проект | Что внутри | Кейс |
 |:-:|--------|------------|------|
-| 05 | **jira-to-servicedesk** | Jira ↔ Express: чаты, файлы, CSAT, webhooks | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
-| 06 | **bot_jira** | Notification gateway: SLA-дайджесты → каналы, auth/TLS, gunicorn | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
-| 07 | **pass_bot** | Self-service сброс пароля AD: FSM, LDAPS, без plaintext в БД | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
-| 08 | **usercreatealertbot** | Alert-релей жизненного цикла учёток 1С/AD → чат | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
-| 09 | **YGO_WEB** | Flask + LDAP + Excel + email | [04](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/04-excel-web-automation.md) |
+| 08 | **jira-to-servicedesk / bot-sd-jira** | Jira ↔ Express: чаты, файлы, CSAT, эпики, ВКС, webhooks | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
+| 09 | **bot_jira** | Notification gateway: SLA-дайджесты → каналы, auth/TLS, gunicorn | [02](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/02-messenger-tracker-sync.md) |
+| 10 | **pass_bot** | Self-service сброс пароля AD: FSM, LDAPS, без plaintext в БД | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
+| 11 | **usercreatealertbot** | Alert-релей жизненного цикла учёток 1С/AD → чат | [03](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/03-identity-self-service.md) |
+| 12 | **YGO_WEB** | Flask + LDAP + Excel + email | [04](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/04-excel-web-automation.md) |
 
 > Рабочие репозитории **приватные**. Разбор кода — на собеседовании.  
 > Публичные описания — в **[portfolio](https://github.com/artyom-ai-dev/portfolio)**.
@@ -152,9 +159,9 @@ Confluence → векторный поиск → агент с tools; встре
 
 ```text
 Backend        Python · FastAPI · Flask · gunicorn · Docker · REST · SQL
-AI / ML        LLM · RAG · Agents · LangChain · Qdrant · PyTorch · STT
+AI / ML        LLM · RAG · Agents · LangChain · Qdrant · llama.cpp · Tesseract · PyTorch · STT
 Интеграции     Webhooks · Jira · eXpress/BotX · LDAP/AD · Confluence
-Данные         pandas · openpyxl · Excel-пайплайны
+Данные         pandas · openpyxl · Excel-пайплайны · OCR чертежей
 Боты           FSM · notification gateway · alert relay · TLS/auth
 ```
 
