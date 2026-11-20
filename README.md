@@ -25,6 +25,7 @@ Design system (red/black cyberpunk):
 `AI-платформы` · `RAG` · `агенты` · `OCR` · `REST/webhooks` · `корпоративные боты`
 
 [![Сайт](https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-ff2a2a?style=for-the-badge&logoColor=black)](https://prod-ai-cases.apps.grok.bot)
+[![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=ff2a2a)](https://t.me/tryboth)
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
@@ -32,6 +33,7 @@ Design system (red/black cyberpunk):
 
 <p>
   <a href="https://prod-ai-cases.apps.grok.bot">Сайт</a> ·
+  <a href="https://t.me/tryboth">Telegram</a> ·
   <a href="mailto:tyukin69@bk.ru">Почта</a> ·
   <a href="https://github.com/artyom-ai-dev/portfolio">Кейсы на GitHub</a> ·
   гибрид / удалёнка · <b>Открыт к предложениям</b>
