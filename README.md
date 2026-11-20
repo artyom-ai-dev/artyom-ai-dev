@@ -45,8 +45,8 @@ Design system (red/black cyberpunk):
 |------------|-----|
 | **[portfolio](https://github.com/artyom-ai-dev/portfolio)** | Публичные кейсы: архитектура, потоки, результат — без приватного кода |
 | **[01 · AI-платформа](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md)** | Главный кейс: RAG + агенты + пайплайн встреч |
-| **[05 · OCR чертежей](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/05-drawing-ocr.md)** | Новое: PDF-скан → ТТ / паспорт / штамп в JSON |
-| **[06 · LLM + Excel](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/06-excel-llm-qa.md)** | Новое: проверка тысяч строк актов локальной моделью |
+| **[05 · OCR чертежей](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/05-drawing-ocr.md)** | PDF-скан → ТТ / паспорт / штамп в JSON |
+| **[06 · LLM + Excel](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/06-excel-llm-qa.md)** | Проверка тысяч строк актов локальной моделью |
 
 Рабочие репозитории **приватные** (корпоративные данные). Разбор кода — на собеседовании.
 
