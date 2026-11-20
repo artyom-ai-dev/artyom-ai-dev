@@ -24,14 +24,16 @@ Design system (red/black cyberpunk):
 Собираю сервисы, которыми реально пользуются:  
 `AI-платформы` · `RAG` · `агенты` · `OCR` · `REST/webhooks` · `корпоративные боты`
 
+[![Сайт](https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-ff2a2a?style=for-the-badge&logoColor=black)](https://prod-ai-cases.apps.grok.bot)
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 [![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
-[![Портфолио](https://img.shields.io/badge/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE-ff2a2a?style=for-the-badge&logoColor=black)](https://github.com/artyom-ai-dev/portfolio)
+[![Кейсы](https://img.shields.io/badge/%D0%9A%D0%B5%D0%B9%D1%81%D1%8B-000000?style=for-the-badge&logoColor=ff2a2a)](https://github.com/artyom-ai-dev/portfolio)
 
 <p>
+  <a href="https://prod-ai-cases.apps.grok.bot">Сайт</a> ·
   <a href="mailto:tyukin69@bk.ru">Почта</a> ·
-  <a href="https://github.com/artyom-ai-dev/portfolio">Кейсы</a> ·
+  <a href="https://github.com/artyom-ai-dev/portfolio">Кейсы на GitHub</a> ·
   гибрид / удалёнка · <b>Открыт к предложениям</b>
 </p>
 
@@ -43,6 +45,7 @@ Design system (red/black cyberpunk):
 
 | Открой первым | Зачем |
 |------------|-----|
+| **[Сайт · prod-ai-cases](https://prod-ai-cases.apps.grok.bot)** | Живая витрина кейсов |
 | **[portfolio](https://github.com/artyom-ai-dev/portfolio)** | Публичные кейсы: архитектура, потоки, результат — без приватного кода |
 | **[01 · AI-платформа](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/01-ai-platform.md)** | Главный кейс: RAG + агенты + пайплайн встреч |
 | **[05 · OCR чертежей](https://github.com/artyom-ai-dev/portfolio/blob/main/cases/05-drawing-ocr.md)** | PDF-скан → ТТ / паспорт / штамп в JSON |
