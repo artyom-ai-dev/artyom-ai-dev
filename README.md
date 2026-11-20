@@ -19,10 +19,10 @@ Design system (red/black cyberpunk):
 <div align="center">
 
 # Артём Тюкин
-### Fullstack / Python-инженер · AI в проде
+### Fullstack-инженер · Backend · Frontend · AI · DevOps
 
-Собираю сервисы, которыми реально пользуются:  
-`AI-платформы` · `RAG` · `агенты` · `OCR` · `Frontend` · `DevOps` · `корпоративные боты`
+Веду сервис целиком: API и интеграции → интерфейс → контейнеры и выкладка.  
+В проде: AI-платформы, RAG/агенты, OCR, корпоративные боты и порталы.
 
 [![Сайт](https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-ff2a2a?style=for-the-badge&logoColor=black)](https://prod-ai-cases.apps.grok.bot)
 [![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=ff2a2a)](https://t.me/tryboth)
@@ -63,14 +63,18 @@ Design system (red/black cyberpunk):
 <tr>
 <td width="58%" valign="top">
 
-Инженер-программист / инженер-разработчик.
+**Fullstack-инженер** — собираю продакшен-системы end-to-end, не демо в ноутбуках.
 
-Делаю **продакшен-системы**, а не демо в ноутбуках:  
-API → интеграции → Docker → пользователи.
+| Роль | Что делаю |
+|------|-----------|
+| **Backend** | Python · FastAPI / Flask · REST · SQL · webhooks · корпоративные интеграции |
+| **Frontend** | TypeScript · Vue 3 / React / Next.js · Vite · Tailwind · UI порталов и ассистентов |
+| **AI-разработчик** | RAG · агенты · OCR · локальные LLM · пайплайны встреч и документов в проде |
+| **DevOps** | Docker · Compose · GitLab CI/CD · Linux-деплой как часть доставки сервиса |
 
-Сильная сторона — стык **инженерии, AI и корпоративных систем**.
+Сильная сторона — стык **backend + AI + корпоративные системы**, с UI и выкладкой в одном контуре.
 
-Ищу роли: **Fullstack / Python**, **инженер-программист**, **прикладной data scientist**.  
+Ищу роли: **Fullstack / Python**, **AI-инженер (прикладной)**, **инженер-программист**.  
 Не трек чистого DevOps и не РП.
 
 </td>
@@ -87,21 +91,21 @@ API → интеграции → Docker → пользователи.
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/card-ai.png" width="100%" alt="AI" /><br/>
-      <b>AI-платформа</b><br/>
-      <sub>агенты · RAG · LLM · STT · OCR</sub>
+      <img src="assets/card-integrations.png" width="100%" alt="Backend" /><br/>
+      <b>Backend</b><br/>
+      <sub>Python · FastAPI · Flask · REST · SQL</sub>
     </td>
-    <td align="center" width="50%">
-      <img src="assets/card-integrations.png" width="100%" alt="Интеграции" /><br/>
-      <b>Интеграции</b><br/>
-      <sub>REST · webhooks · Jira · LDAP</sub>
-    </td>
-  </tr>
-  <tr>
     <td align="center" width="50%">
       <img src="assets/card-data.png" width="100%" alt="Frontend" /><br/>
       <b>Frontend</b><br/>
       <sub>Vue · React · Next.js · Vite · Tailwind</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/card-ai.png" width="100%" alt="AI" /><br/>
+      <b>AI-разработчик</b><br/>
+      <sub>агенты · RAG · LLM · STT · OCR</sub>
     </td>
     <td align="center" width="50%">
       <img src="assets/card-integrations.png" width="100%" alt="DevOps" /><br/>
