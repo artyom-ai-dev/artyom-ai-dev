@@ -22,7 +22,7 @@ Design system (red/black cyberpunk):
 ### Fullstack / Python-инженер · AI в проде
 
 Собираю сервисы, которыми реально пользуются:  
-`AI-платформы` · `RAG` · `агенты` · `OCR` · `frontend` · `Docker/CI` · `корпоративные боты`
+`AI-платформы` · `RAG` · `агенты` · `OCR` · `Frontend` · `DevOps` · `корпоративные боты`
 
 [![Сайт](https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-ff2a2a?style=for-the-badge&logoColor=black)](https://prod-ai-cases.apps.grok.bot)
 [![Telegram](https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=ff2a2a)](https://t.me/tryboth)
@@ -86,20 +86,27 @@ API → интеграции → Docker → пользователи.
 
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="50%">
       <img src="assets/card-ai.png" width="100%" alt="AI" /><br/>
       <b>AI-платформа</b><br/>
       <sub>агенты · RAG · LLM · STT · OCR</sub>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="50%">
       <img src="assets/card-integrations.png" width="100%" alt="Интеграции" /><br/>
       <b>Интеграции</b><br/>
       <sub>REST · webhooks · Jira · LDAP</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/card-data.png" width="100%" alt="Данные" /><br/>
-      <b>Frontend / DevOps</b><br/>
-      <sub>Vue · React · Next · Docker · CI/CD</sub>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/card-data.png" width="100%" alt="Frontend" /><br/>
+      <b>Frontend</b><br/>
+      <sub>Vue · React · Next.js · Vite · Tailwind</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/card-integrations.png" width="100%" alt="DevOps" /><br/>
+      <b>DevOps</b><br/>
+      <sub>Docker · Compose · GitLab CI/CD · Linux</sub>
     </td>
   </tr>
 </table>
